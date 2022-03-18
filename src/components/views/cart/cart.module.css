@@ -1,0 +1,21 @@
+.scroll::-webkit-scrollbar {
+  width: 2px;
+}
+
+.scroll::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+.scroll {
+  height: 65%;
+  max-height: 65%;
+  overflow-y: scroll;
+}
+
+.headerdiv {
+  background: #489a3b;
+  width: "100%";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

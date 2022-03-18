@@ -1,0 +1,18 @@
+@keyframes paydiolog {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  50% {
+    transform: translateX(90%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.paydiv {
+  animation-name: paydiolog;
+  animation-duration: 1s;
+}
