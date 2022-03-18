@@ -84,7 +84,7 @@ const Cart = () => {
                     product code : {item.pdcode}
                   </Typography>
                   <Typography
-                    sx={{ color: "green" }}
+                    sx={{ color: "green", marginBottom: 1, marginTop: 0.5 }}
                     fontSize={10}
                     fontWeight={"bold"}
                   >
